@@ -58,11 +58,6 @@ a:hover {
 	padding-right: 0;
 }
 
-.slogan {
-	font-size: 40px; !important
-    font-family: "Titillium Web", Arial, sans-serif;!important
-
-}
 
 
 @media (min-width: 600px) {
@@ -286,8 +281,29 @@ a:hover {
 }
 .g-heading-v10 p {
 	margin: 0 auto;
-	font-size: 16px;
-	max-width: 760px;
+	font-size: 16px; 
+	max-width: 760px; 
+}
+.definicion { /*elina*/
+	margin: 0 0 0 25%;
+	font-size: 26px; 
+	max-width: 600px; 
+    font-family: "Titillium Web", Arial, sans-serif;!important 
+    text-align: left;
+    line-height: 1.2;
+
+}
+.def-logo { /*elina*/
+	margin: 20px 0 20px 25%;
+	width: 130px;}
+
+
+.definicion { /*elina*/
+	margin: 0 0 0 25%;
+	font-size: 26px; 
+	max-width: 600px; 
+    font-family: "Titillium Web", Arial, sans-serif;!important 
+    line-height: 1.2;
 }
 
 /* Container fluids with two different background colors */
@@ -297,6 +313,15 @@ a:hover {
 
 .container-fluid.with-bg-2 {
 	background: #4fd2c2;
+}
+
+.bk_estructura {
+	background: rgba(0, 0, 0, 0) radial-gradient(circle farthest-side, #3fa9f5, #2491dd) repeat scroll 0 0;
+}
+
+
+.bk_about { 
+	background: url("../img/bk_01.png") ;
 }
 
 /* --------------------------------------------------
