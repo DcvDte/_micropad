@@ -355,11 +355,34 @@ a:hover {
 }
 
 
+.flat-testimonials .flat-testimonials-in {
+    background: #2491dd;
+    border-radius: 10% !important;
+    min-height: 340px;
+	padding-top: 10px !important;
+
+}
+.flat-testimonials .flat-testimonials-in img {
+    height: 135px;
+    margin: 0 auto;
+    width: 135px;
+}
+.flat-testimonials .flat-testimonials-in p::after {
+    content: "";
+}
+
+.flat-testimonials .flat-testimonials-in p::before {
+    content: "";
+}
+.flat-testimonials .flat-testimonials-in p {
+font-size:18px;
+ }
+
 
 /*CLASE - Service Block v8
 ------------------------------------*/
 .service-block-v8 {
-  padding: 25px;
+  padding: 10px;
   background: none;
   text-align: center;
 }
@@ -765,11 +788,19 @@ a:hover {
 }
 
 /* Responsive mode */
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
 	.short-info {
 		margin: 0 0 20px;
 	}
+}*/
+
+@media (max-width: 992px) {
+.features-text {
+    padding: 10px 0px !important;
 }
+}
+
+
 /* --------------------------------------------------
     [5. Benefits]
 ---------------------------------------------------- */
@@ -979,6 +1010,12 @@ a:hover {
 .why-ourapp .why-ourapp-text {
 	/* Might require adding a padding-bottom value */
 	padding: 80px 100px 0 0;
+}
+@media (max-width: 992px) {
+.why-ourapp .why-ourapp-text {
+	/* Might require adding a padding-bottom value */
+	padding: 20px 20px 0 0 !important;
+}
 }
 
 /* Altering g-heading-v10 */
@@ -1378,9 +1415,12 @@ a:hover {
 ---------------------------------------------------- */
 /* Default padding */
 .footer {
-	padding: 90px 0 0;
+	padding: 5px 0 0;
 }
-
+.footer-logo {
+    margin: 5px 0 5px;
+    height: 54px;
+}
 /* Altering g-heading-v10 */
 .footer .g-heading-v10 h3,
 .footer .g-heading-v10 h1,
