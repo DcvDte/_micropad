@@ -345,7 +345,7 @@ a:hover {
 	float: right !important;
 	border-radius: 20px;
     padding: 20px;
-	background: #eaeaea;
+	background: #f4f4f4;
  
 
 }
@@ -470,7 +470,7 @@ font-size:18px;
 }
 
 .bg-image-clase::before {
-    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.3) url("../img/gridtile.png") repeat scroll 0 0;
     content: " ";
     height: 100%;
     left: 0;
@@ -672,13 +672,11 @@ font-size:18px;
 
 /* Designing the banner buttons */
 .btn-u.btn-banner {
-	padding: 10px 20px 17px;
+	padding: 10px 25px;
 	max-width: 180px;
-	font-size: 13px;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-size: 20px;
 	line-height: 0;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .btn-u.btn-banner:hover,
@@ -710,6 +708,8 @@ font-size:18px;
 	background: #FF4200;
 	border-radius: 20px;
 }
+
+
 
 /* The banner image */
 .banner-img {
@@ -930,7 +930,7 @@ font-size:18px;
 ---------------------------------------------------- */
 /* Default padding */
 .features {
-	padding: 70px 0 85px;
+	padding: 30px 0 20px;/*70px 0 85px;*/
 }
 
 /* Image padding */
@@ -951,11 +951,11 @@ font-size:18px;
 
 /* features short-info blocks and its content */
 .features-text .feature-shortinfo-icon {
-	padding: 20px 0 10px;
+	padding: 5px 0 5px;
 }
 
 .features-text .feature-shortinfo-text {
-	padding: 0 15px 20px 0;
+	padding: 0 5px 5px 0;
 }
 
 .features-text .feature-shortinfo-icon .fa {
@@ -1419,7 +1419,7 @@ font-size:18px;
 }
 .footer-logo {
     margin: 5px 0 5px;
-    height: 54px;
+    height: 50px;
 }
 /* Altering g-heading-v10 */
 .footer .g-heading-v10 h3,
