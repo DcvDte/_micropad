@@ -2603,3 +2603,7 @@ img.img-center,
 	-webkit-align-items: center;
 	align-items: center;
 }
+
+#layerslider .ls-bottom-nav-wrapper {
+	display: none !important;
+}
