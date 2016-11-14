@@ -999,13 +999,10 @@ font-size:18px;
 
 /* Default padding */
 .why-ourapp {
-	padding: 100px 0 0 0;
+	padding: 30px 0 0 0;
 	margin: : 0 15px 0 0;
 }
-.why-ourapp  {
-	padding: 100px 0 0 0;
-	margin: : 0 15px 0 0;
-}
+
 
 .why-ourapp .why-ourapp-text {
 	/* Might require adding a padding-bottom value */
