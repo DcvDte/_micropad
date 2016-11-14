@@ -719,17 +719,17 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-u-green {
-	background: #2ecc71;
+	background: #ACC12F;
 }
 .btn-u.btn-u-green:hover,
 .btn-u.btn-u-green:focus,
 .btn-u.btn-u-green:active,
 .btn-u.btn-u-green.active,
 .open .dropdown-toggle.btn-u.btn-u-green {
-	background: #27ae60;
+	background: #ACC12F;
 }
 .btn-u.btn-u-split-green.dropdown-toggle {
-	border-left: solid 1px #27ae60;
+	border-left: solid 1px #ACC12F;
 }
 
 .btn-u.btn-u-yellow {
