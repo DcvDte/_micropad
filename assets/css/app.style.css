@@ -358,7 +358,7 @@ a:hover {
 .flat-testimonials .flat-testimonials-in {
     background: #2491dd;
     border-radius: 10% !important;
-    min-height: 340px;
+    min-height: 400px;
 	padding-top: 10px !important;
 
 }
@@ -375,7 +375,7 @@ a:hover {
     content: "";
 }
 .flat-testimonials .flat-testimonials-in p {
-font-size:18px;
+font-size:16px;
  }
 
 
@@ -580,6 +580,9 @@ font-size:18px;
 .homeapp-header.one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {
   background: #000;
 }
+
+
+
 
 /* Responsive mode */
 @media (max-width: 1200px) {
@@ -805,6 +808,14 @@ font-size:18px;
     [5. Benefits]
 ---------------------------------------------------- */
 /* Designing benefit box and its content */
+
+.btn-u {
+    background: #ff6600 none repeat scroll 0 0;
+}
+.btn-u:hover, .btn-u:focus, .btn-u:active, .btn-u.active, .open .dropdown-toggle.btn-u {
+    background: #ff4e00 none repeat scroll 0 0;
+}
+
 .benefit-box {
 	padding: 0 15px 30px;
 	margin: 0;
