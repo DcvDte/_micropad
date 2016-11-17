@@ -354,9 +354,10 @@ a:hover {
 	border-radius: 20px;
     padding: 20px;
 	background: #f4f4f4;
- 
+ }
 
-}
+
+
 .service-block-desc h5{ /*elina*/
   margin-top: 10px;
   font-size: 18px; 
@@ -1457,6 +1458,18 @@ font-size:16px;
     margin: 5px 0 5px;
     height: 50px;
 }
+.footer-logo2 {
+    margin: 5px 0 5px;
+    height: 50px;
+    float: right;
+}
+
+.footer-v3 .footer {
+    background: #252525 none repeat scroll 0 0;
+    border-top: 5px solid #555;
+    padding: 20px 0;
+}
+
 /* Altering g-heading-v10 */
 .footer .g-heading-v10 h3,
 .footer .g-heading-v10 h1,
@@ -1487,6 +1500,21 @@ font-size:16px;
 .footer input.form-control {
 	height: 42px;
 }
+
+.dark-social-v2 li i {
+    background: #353535 none repeat scroll 0 0;
+    color: #777;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    padding: 8px 5px;
+    text-align: center;
+    width: 30px;
+}
+
+
+
+
 
 /* Form placeholder colors for different browsers */
 .footer input.form-control::-webkit-input-placeholder,
