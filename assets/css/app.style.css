@@ -832,6 +832,13 @@ font-size:16px;
 }
 }
 
+@media (max-width: 992px) {
+ .def-logo {
+    margin: 20px auto;
+    width: 130px;
+}
+}
+
 
 /* --------------------------------------------------
     [5. Benefits]
