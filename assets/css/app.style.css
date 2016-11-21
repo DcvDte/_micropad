@@ -567,9 +567,10 @@ font-size:16px;
 /* Designing the a links */
 .homeapp-header.one-page-header .navbar-nav > li > a,
 .homeapp-header.one-page-header .navbar-nav > li > a:focus {
-    color: #222;
+    color: #999;
+    font-family: "Roboto Slab";
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 7px 13px;
 }
@@ -829,6 +830,13 @@ font-size:16px;
 @media (max-width: 992px) {
 .features-text {
     padding: 10px 0px !important;
+}
+}
+
+@media (max-width: 992px) {
+ .def-logo {
+    margin: 20px auto;
+    width: 130px;
 }
 }
 
