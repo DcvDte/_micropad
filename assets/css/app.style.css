@@ -568,8 +568,7 @@ font-size:16px;
 .homeapp-header.one-page-header .navbar-nav > li > a,
 .homeapp-header.one-page-header .navbar-nav > li > a:focus {
     color: #999;
-    font-family: "Roboto Slab";
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 7px 13px;
