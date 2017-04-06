@@ -2,8 +2,8 @@
 session_start();
 if( isset($_POST['name']) && strtoupper($_POST['captcha']) == $_SESSION['captcha_id'] )
 {
-	$to = 'vokyvon@gmail.com'; // Replace with your email	
-	$subject = 'Message from website'; // Replace with your $subject
+	$to = 'mbeltran@abc.gob.ar'; // Replace with your email	
+	$subject = 'PAD consulta web'; // Replace with your $subject
 	$headers = 'From: ' . $_POST['email'] . "\r\n" . 'Reply-To: ' . $_POST['email'];	
 	
 	$message = 'Name: ' . $_POST['name'] . "\n" .

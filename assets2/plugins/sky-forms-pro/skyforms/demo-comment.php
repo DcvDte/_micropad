@@ -141,29 +141,26 @@ $_SESSION['captcha_id'] = $str;
 										
 					// Messages for form validation
 					messages:
-					{
+
 						name:
 						{
-							required: 'Enter your name',
+							required: 'Por favor completa con tu nombre',
 						},
 						email:
 						{
-							required: 'Enter your email address',
-							email: 'Enter a VALID email'
+							required: 'Por favor completa con tu email',
+							email: 'Por favor completa con un email VALIDO '
 						},
-						url:
+						message:
 						{
-							email: 'Enter a VALID url'
-						},
-						comment:
-						{
-							required: 'Please enter your comment'
+							required: 'Por favor completa con tu consulta'
 						},
 						captcha:
 						{
 							required: 'Please enter characters',
 							remote: 'Correct captcha is required'
 						}
+
 					},
 										
 					// Ajax form submition					
