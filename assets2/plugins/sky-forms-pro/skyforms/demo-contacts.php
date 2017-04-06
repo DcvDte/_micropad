@@ -145,16 +145,16 @@ $_SESSION['captcha_id'] = $str;
 					{
 						name:
 						{
-							required: 'Please enter your name',
+							required: 'Por favor completa con tu nombre',
 						},
 						email:
 						{
-							required: 'Please enter your email address',
-							email: 'Please enter a VALID email address'
+							required: 'Por favor completa con tu email',
+							email: 'Por favor completa con un email VALIDO '
 						},
 						message:
 						{
-							required: 'Please enter your message'
+							required: 'Por favor completa con tu consulta'
 						},
 						captcha:
 						{
